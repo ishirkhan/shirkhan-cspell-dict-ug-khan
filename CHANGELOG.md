@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.2.0 (2022-01-07)
+
+
+### Features
+
+* 重新生成了词典 ([650a4dc](https://gitee.com/silvaq/shirkhan-cspell-dict-ug-khan/commit/650a4dc692a6fc8f0a9e27b60e685a5f03b841bb))
+* 项目初始化 ([9392d6a](https://gitee.com/silvaq/shirkhan-cspell-dict-ug-khan/commit/9392d6a9106f34acbb47953dd77bacd63ef9c145))
+
 ### [0.1.2](https://gitee.com/silvaq/shirkhan-cspell-dicts/compare/v0.1.1...v0.1.2) (2022-01-06)
 
 

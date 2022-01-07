@@ -1,6 +1,6 @@
 {
   "name": "cspell-dict-ug-khan",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Ug-khan dictionary for cspell. -- Private until verified",
   "exports": {
     ".": "./cspell-ext.json",
