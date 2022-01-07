@@ -1,0 +1,26 @@
+{
+    "id": "ug-khan",
+    "version": "0.2",
+    "name": "ug-khan",
+    "description": "Ug-khan dictionary for cspell.",
+    "readonly": true,
+    "dictionaryDefinitions": [
+        {
+            "name": "ug-khan",
+            "path": "./khan.dict.trie.gz",
+            "description": "Ug-khan dictionary for cspell."
+        }
+    ],
+    "dictionaries": [],
+    "languageSettings": [
+        {
+            "languageId": "markdown,plaintext",
+            "locale": "ug-khan",
+            "includeRegExpList": [],
+            "ignoreRegExpList": [],
+            "patterns": [],
+            "dictionaries": ["ug-khan"],
+            "dictionaryDefinitions": []
+        }
+    ]
+}
