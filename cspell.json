@@ -1,6 +1,12 @@
 {
     "version": "0.2",
-    "files": ["**/*.{md,txt}"],
-    "dictionaries": ["ug-khan"],
-    "import": ["./cspell-ext.json"]
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "dictionaries": [
+        "ug-khan"
+    ],
+    "import": [
+        "./cspell-ext.json"
+    ]
 }

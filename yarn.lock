@@ -279,6 +279,13 @@
   resolved "https://registry.npmmirror.com/@types/minimist/download/@types/minimist-1.2.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fminimist%2Fdownload%2F%40types%2Fminimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha1-7nceK6Sz3Fs3KTXVSf2WF780W4w=
 
+"@types/nlcst@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@types/nlcst/download/@types/nlcst-1.0.0.tgz#9dacd7e9a32bcf0451873be62bdc373aed735b46"
+  integrity sha1-nazX6aMrzwRRhzvmK9w3Ou1zW0Y=
+  dependencies:
+    "@types/unist" "*"
+
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
   resolved "https://registry.npmmirror.com/@types/normalize-package-data/download/@types/normalize-package-data-2.4.1.tgz?cache=0&sync_timestamp=1637270290556&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnormalize-package-data%2Fdownload%2F%40types%2Fnormalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
@@ -288,6 +295,11 @@
   version "4.0.0"
   resolved "https://registry.npmmirror.com/@types/parse-json/download/@types/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
+
+"@types/unist@*", "@types/unist@^2.0.0":
+  version "2.0.6"
+  resolved "https://registry.npmmirror.com/@types/unist/download/@types/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
+  integrity sha1-JQp7FsO5H2cqJFUuxkZ47rHToI0=
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -326,6 +338,16 @@ array-ify@^1.0.0:
   resolved "https://registry.nlark.com/array-ify/download/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
   integrity sha1-nlKHYrSpBmrRY6aWKjZEGOlibs4=
 
+array-iterate@^1.0.0:
+  version "1.1.4"
+  resolved "https://registry.npmmirror.com/array-iterate/download/array-iterate-1.1.4.tgz#add1522e9dd9749bb41152d08b845bd08d6af8b7"
+  integrity sha1-rdFSLp3ZdJu0EVLQi4Rb0I1q+Lc=
+
+array-iterate@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/array-iterate/download/array-iterate-2.0.1.tgz#6efd43f8295b3fee06251d3d62ead4bd9805dd24"
+  integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
+
 array-timsort@^1.0.3:
   version "1.0.3"
   resolved "https://registry.nlark.com/array-timsort/download/array-timsort-1.0.3.tgz#3c9e4199e54fb2b9c3fe5976396a21614ef0d926"
@@ -335,6 +357,11 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.nlark.com/arrify/download/arrify-1.0.1.tgz?cache=0&sync_timestamp=1622605313791&other_urls=https%3A%2F%2Fregistry.nlark.com%2Farrify%2Fdownload%2Farrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+
+bail@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/bail/download/bail-2.0.2.tgz?cache=0&sync_timestamp=1636274898174&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fbail%2Fdownload%2Fbail-2.0.2.tgz#d26f5cd8fe5d6f832a31517b9f7c356040ba6d5d"
+  integrity sha1-0m9c2P5db4MqMVF7n3w1YEC6bV0=
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -855,6 +882,120 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
+esbuild-android-arm64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-android-arm64/download/esbuild-android-arm64-0.14.10.tgz#c854db57dc2d4df6f4f62185ca812f26a132bf1e"
+  integrity sha512-vzkTafHKoiMX4uIN1kBnE/HXYLpNT95EgGanVk6DHGeYgDolU0NBxjO7yZpq4ZGFPOx8384eAdDrBYhO11TAlQ==
+
+esbuild-darwin-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-darwin-64/download/esbuild-darwin-64-0.14.10.tgz#c44fab6b8bfc83e5d083f513e4acbff14fb82eac"
+  integrity sha512-DJwzFVB95ZV7C3PQbf052WqaUuuMFXJeZJ0LKdnP1w+QOU0rlbKfX0tzuhoS//rOXUj1TFIwRuRsd0FX6skR7A==
+
+esbuild-darwin-arm64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-darwin-arm64/download/esbuild-darwin-arm64-0.14.10.tgz#9454b3763b36407dc395c4c3529fb5ddd4a6225f"
+  integrity sha512-RNaaoZDg3nsqs5z56vYCjk/VJ76npf752W0rOaCl5lO5TsgV9zecfdYgt7dtUrIx8b7APhVaNYud+tGsDOVC9g==
+
+esbuild-freebsd-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-freebsd-64/download/esbuild-freebsd-64-0.14.10.tgz#04eef46d5d5e4152c6b5a6a12f432db0fe7c89de"
+  integrity sha512-10B3AzW894u6bGZZhWiJOHw1uEHb4AFbUuBdyml1Ht0vIqd+KqWW+iY/yMwQAzILr2WJZqEhbOXRkJtY8aRqOw==
+
+esbuild-freebsd-arm64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-freebsd-arm64/download/esbuild-freebsd-arm64-0.14.10.tgz#67ca88529543ada948737c95819253ead16494a7"
+  integrity sha512-mSQrKB7UaWvuryBTCo9leOfY2uEUSimAvcKIaUWbk5Hth9Sg+Try+qNA/NibPgs/vHkX0KFo/Rce6RPea+P15g==
+
+esbuild-linux-32@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-32/download/esbuild-linux-32-0.14.10.tgz#8f3d5fb0b9b616d6b604da781d71767d7679f64f"
+  integrity sha512-lktF09JgJLZ63ANYHIPdYe339PDuVn19Q/FcGKkXWf+jSPkn5xkYzAabboNGZNUgNqSJ/vY7VrOn6UrBbJjgYA==
+
+esbuild-linux-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-64/download/esbuild-linux-64-0.14.10.tgz#c1c60a079c4709164bdd89fbb007a2edeea7c34a"
+  integrity sha512-K+gCQz2oLIIBI8ZM77e9sYD5/DwEpeYCrOQ2SYXx+R4OU2CT9QjJDi4/OpE7ko4AcYMlMW7qrOCuLSgAlEj4Wg==
+
+esbuild-linux-arm64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-arm64/download/esbuild-linux-arm64-0.14.10.tgz#d8f1f89190f6d8b6e06a1214aafba454e5daa990"
+  integrity sha512-+qocQuQvcp5wo/V+OLXxqHPc+gxHttJEvbU/xrCGE03vIMqraL4wMua8JQx0SWEnJCWP+Nhf//v8OSwz1Xr5kA==
+
+esbuild-linux-arm@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-arm/download/esbuild-linux-arm-0.14.10.tgz#43192a00019a4553fb44e67f628fff0f560f16c2"
+  integrity sha512-BYa60dZ/KPmNKYxtHa3LSEdfKWHcm/RzP0MjB4AeBPhjS0D6/okhaBesZIY9kVIGDyeenKsJNOmnVt4+dhNnvQ==
+
+esbuild-linux-mips64le@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-mips64le/download/esbuild-linux-mips64le-0.14.10.tgz#f57bb8b2f1a3063cc91cfd787c8a9130cf863c16"
+  integrity sha512-nmUd2xoBXpGo4NJCEWoaBj+n4EtDoLEvEYc8Z3aSJrY0Oa6s04czD1flmhd0I/d6QEU8b7GQ9U0g/rtBfhtxBg==
+
+esbuild-linux-ppc64le@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-ppc64le/download/esbuild-linux-ppc64le-0.14.10.tgz#becd965bfe3425d41e026f1c4678b393127fecbd"
+  integrity sha512-vsOWZjm0rZix7HSmqwPph9arRVCyPtUpcURdayQDuIhMG2/UxJxpbdRaa//w4zYqcJzAWwuyH2PAlyy0ZNuxqQ==
+
+esbuild-linux-s390x@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-linux-s390x/download/esbuild-linux-s390x-0.14.10.tgz#cc4228ac842febc48b84757814bed964a619be62"
+  integrity sha512-knArKKZm0ypIYWOWyOT7+accVwbVV1LZnl2FWWy05u9Tyv5oqJ2F5+X2Vqe/gqd61enJXQWqoufXopvG3zULOg==
+
+esbuild-netbsd-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-netbsd-64/download/esbuild-netbsd-64-0.14.10.tgz#6ec50d9e4547a7579f447307b19f66bbedfd868b"
+  integrity sha512-6Gg8neVcLeyq0yt9bZpReb8ntZ8LBEjthxrcYWVrBElcltnDjIy1hrzsujt0+sC2rL+TlSsE9dzgyuvlDdPp2w==
+
+esbuild-openbsd-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-openbsd-64/download/esbuild-openbsd-64-0.14.10.tgz#925ac3d2326cc219d514e1ca806e80e5143aa043"
+  integrity sha512-9rkHZzp10zI90CfKbFrwmQjqZaeDmyQ6s9/hvCwRkbOCHuto6RvMYH9ghQpcr5cUxD5OQIA+sHXi0zokRNXjcg==
+
+esbuild-sunos-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-sunos-64/download/esbuild-sunos-64-0.14.10.tgz#8d3576d8cac5c4f9f2a84be81b9078d424dbc739"
+  integrity sha512-mEU+pqkhkhbwpJj5DiN3vL0GUFR/yrL3qj8ER1amIVyRibKbj02VM1QaIuk1sy5DRVIKiFXXgCaHvH3RNWCHIw==
+
+esbuild-windows-32@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-windows-32/download/esbuild-windows-32-0.14.10.tgz#8a67fca4cb594a340566d66eef3f568f65057a48"
+  integrity sha512-Z5DieUL1N6s78dOSdL95KWf8Y89RtPGxIoMF+LEy8ChDsX+pZpz6uAVCn+YaWpqQXO+2TnrcbgBIoprq2Mco1g==
+
+esbuild-windows-64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-windows-64/download/esbuild-windows-64-0.14.10.tgz#5e6d7c475ff6a71ad0aa4046894364e6c40a9249"
+  integrity sha512-LE5Mm62y0Bilu7RDryBhHIX8rK3at5VwJ6IGM3BsASidCfOBTzqcs7Yy0/Vkq39VKeTmy9/66BAfVoZRNznoDw==
+
+esbuild-windows-arm64@0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild-windows-arm64/download/esbuild-windows-arm64-0.14.10.tgz#50ab9a83f6ccf71c272e58489ecc4d7375075f32"
+  integrity sha512-OJOyxDtabvcUYTc+O4dR0JMzLBz6G9+gXIHA7Oc5d5Fv1xiYa0nUeo8+W5s2e6ZkPRdIwOseYoL70rZz80S5BA==
+
+esbuild@^0.14.10:
+  version "0.14.10"
+  resolved "https://registry.npmmirror.com/esbuild/download/esbuild-0.14.10.tgz#10268d2b576b25ed6f8554553413988628a7767b"
+  integrity sha512-ibZb+NwFqBwHHJlpnFMtg4aNmVK+LUtYMFC9CuKs6lDCBEvCHpqCFZFEirpqt1jOugwKGx8gALNGvX56lQyfew==
+  optionalDependencies:
+    esbuild-android-arm64 "0.14.10"
+    esbuild-darwin-64 "0.14.10"
+    esbuild-darwin-arm64 "0.14.10"
+    esbuild-freebsd-64 "0.14.10"
+    esbuild-freebsd-arm64 "0.14.10"
+    esbuild-linux-32 "0.14.10"
+    esbuild-linux-64 "0.14.10"
+    esbuild-linux-arm "0.14.10"
+    esbuild-linux-arm64 "0.14.10"
+    esbuild-linux-mips64le "0.14.10"
+    esbuild-linux-ppc64le "0.14.10"
+    esbuild-linux-s390x "0.14.10"
+    esbuild-netbsd-64 "0.14.10"
+    esbuild-openbsd-64 "0.14.10"
+    esbuild-sunos-64 "0.14.10"
+    esbuild-windows-32 "0.14.10"
+    esbuild-windows-64 "0.14.10"
+    esbuild-windows-arm64 "0.14.10"
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.nlark.com/escalade/download/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -869,6 +1010,11 @@ esprima@^4.0.1:
   version "4.0.1"
   resolved "https://registry.nlark.com/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
+
+extend@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.nlark.com/extend/download/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
 
 fast-json-stable-stringify@^2.1.0:
   version "2.1.0"
@@ -1157,6 +1303,11 @@ is-arrayish@^0.2.1:
   resolved "https://registry.nlark.com/is-arrayish/download/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
   integrity sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
 
+is-buffer@^2.0.0:
+  version "2.0.5"
+  resolved "https://registry.nlark.com/is-buffer/download/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha1-68JS5ADSL/jXf6CYiIIaJKZYwZE=
+
 is-core-module@^2.5.0, is-core-module@^2.8.0:
   version "2.8.1"
   resolved "https://registry.npmmirror.com/is-core-module/download/is-core-module-2.8.1.tgz#f59fdfca701d5879d0a6b100a40aa1560ce27211"
@@ -1183,6 +1334,11 @@ is-plain-obj@^1.1.0:
   version "1.1.0"
   resolved "https://registry.nlark.com/is-plain-obj/download/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
+
+is-plain-obj@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.nlark.com/is-plain-obj/download/is-plain-obj-4.0.0.tgz#06c0999fd7574edf5a906ba5644ad0feb3a84d22"
+  integrity sha1-BsCZn9dXTt9akGulZErQ/rOoTSI=
 
 is-text-path@^1.0.1:
   version "1.0.1"
@@ -1385,6 +1541,18 @@ neo-async@^2.6.0:
   resolved "https://registry.nlark.com/neo-async/download/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
 
+nlcst-to-string@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/nlcst-to-string/download/nlcst-to-string-2.0.4.tgz#9315dfab80882bbfd86ddf1b706f53622dc400cc"
+  integrity sha1-kxXfq4CIK7/Ybd8bcG9TYi3EAMw=
+
+nlcst-to-string@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmmirror.com/nlcst-to-string/download/nlcst-to-string-3.1.0.tgz#359519a16f086114538fcbb454e86967c471f823"
+  integrity sha1-NZUZoW8IYRRTj8u0VOhpZ8Rx+CM=
+  dependencies:
+    "@types/nlcst" "^1.0.0"
+
 normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.nlark.com/normalize-package-data/download/normalize-package-data-2.5.0.tgz?cache=0&sync_timestamp=1629301872905&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnormalize-package-data%2Fdownload%2Fnormalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
@@ -1507,6 +1675,15 @@ parse-json@^5.0.0:
     error-ex "^1.3.1"
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
+
+parse-latin@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.nlark.com/parse-latin/download/parse-latin-5.0.0.tgz#a1963445f59fb9cfa3cb1ddf5f839bfeb0ee4b42"
+  integrity sha1-oZY0RfWfuc+jyx3fX4Ob/rDuS0I=
+  dependencies:
+    nlcst-to-string "^2.0.0"
+    unist-util-modify-children "^2.0.0"
+    unist-util-visit-children "^1.0.0"
 
 path-exists@^3.0.0:
   version "3.0.0"
@@ -1747,6 +1924,24 @@ shebang-regex@^3.0.0:
   resolved "https://registry.nlark.com/shebang-regex/download/shebang-regex-3.0.0.tgz?cache=0&sync_timestamp=1628896405033&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fshebang-regex%2Fdownload%2Fshebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI=
 
+shirkhan-alphabet-table@^1.x:
+  version "1.5.0"
+  resolved "https://registry.npmmirror.com/shirkhan-alphabet-table/download/shirkhan-alphabet-table-1.5.0.tgz#3d8ce875e5b0807cc65c0d80789a4914536e6968"
+  integrity sha512-93C0B0JmBljiFeoeLCrqEZ61mFoG7olqcyKGIroq8WYFc2q7WGpeFgN7xBssCmSQWvSBsTLAS47dI0Jgecmh2w==
+
+shirkhan-retext@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.npmmirror.com/shirkhan-retext/download/shirkhan-retext-1.6.2.tgz#48270d5bc59945cb2492ec48cefabace67d75c59"
+  integrity sha512-KedmDzZWS4gLSz9rjB3g0Mk95+rWfoQmA0KSofol7PL52R3PTf6V1KQN6CAf1w5W2ah/xJv5pg9gTCInL/u/0A==
+  dependencies:
+    nlcst-to-string "^3.1.0"
+    parse-latin "^5.0.0"
+    shirkhan-alphabet-table "^1.x"
+    typescript "4.4.4"
+    unified "^10.1.1"
+    unist-util-modify-children "^3.0.0"
+    unist-util-visit "^4.1.0"
+
 signal-exit@^3.0.2:
   version "3.0.6"
   resolved "https://registry.npmmirror.com/signal-exit/download/signal-exit-3.0.6.tgz#24e630c4b0f03fea446a2bd299e62b4a6ca8d0af"
@@ -1921,6 +2116,11 @@ trim-newlines@^3.0.0:
   resolved "https://registry.nlark.com/trim-newlines/download/trim-newlines-3.0.1.tgz#260a5d962d8b752425b32f3a7db0dcacd176c144"
   integrity sha1-Jgpdli2LdSQlsy86fbDcrNF2wUQ=
 
+trough@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.nlark.com/trough/download/trough-2.0.2.tgz?cache=0&sync_timestamp=1625400622069&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftrough%2Fdownload%2Ftrough-2.0.2.tgz#94a3aa9d5ce379fc561f6244905b3f36b7458d96"
+  integrity sha1-lKOqnVzjefxWH2JEkFs/NrdFjZY=
+
 type-fest@^0.18.0:
   version "0.18.1"
   resolved "https://registry.npmmirror.com/type-fest/download/type-fest-0.18.1.tgz#db4bc151a4a2cf4eebf9add5db75508db6cc841f"
@@ -1948,10 +2148,28 @@ typedarray@^0.0.6:
   resolved "https://registry.nlark.com/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typescript@4.4.4:
+  version "4.4.4"
+  resolved "https://registry.npmmirror.com/typescript/download/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
+  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+
 uglify-js@^3.1.4:
   version "3.14.5"
   resolved "https://registry.npmmirror.com/uglify-js/download/uglify-js-3.14.5.tgz#cdabb7d4954231d80cb4a927654c4655e51f4859"
   integrity sha512-qZukoSxOG0urUTvjc2ERMTcAy+BiFh3weWAkeurLwjrCba73poHmG3E36XEjd/JGukMzwTL7uCxZiAexj8ppvQ==
+
+unified@^10.1.1:
+  version "10.1.1"
+  resolved "https://registry.npmmirror.com/unified/download/unified-10.1.1.tgz?cache=0&sync_timestamp=1637260005329&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Funified%2Fdownload%2Funified-10.1.1.tgz#345e349e3ab353ab612878338eb9d57b4dea1d46"
+  integrity sha512-v4ky1+6BN9X3pQrOdkFIPWAaeDsHPE1svRDxq7YpTc2plkIqFMwukfqM+l0ewpP9EfwARlt9pPFAeWYhHm8X9w==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    bail "^2.0.0"
+    extend "^3.0.0"
+    is-buffer "^2.0.0"
+    is-plain-obj "^4.0.0"
+    trough "^2.0.0"
+    vfile "^5.0.0"
 
 unique-string@^2.0.0:
   version "2.0.0"
@@ -1959,6 +2177,55 @@ unique-string@^2.0.0:
   integrity sha1-OcZFH4GvsnSd4rIz4/fF6IQ72J0=
   dependencies:
     crypto-random-string "^2.0.0"
+
+unist-util-is@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.nlark.com/unist-util-is/download/unist-util-is-5.1.1.tgz?cache=0&sync_timestamp=1626874922677&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funist-util-is%2Fdownload%2Funist-util-is-5.1.1.tgz#e8aece0b102fa9bc097b0fef8f870c496d4a6236"
+  integrity sha1-6K7OCxAvqbwJew/vj4cMSW1KYjY=
+
+unist-util-modify-children@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.nlark.com/unist-util-modify-children/download/unist-util-modify-children-2.0.0.tgz#9c9c30d4e32502aabb3fde10d7872a17c86801e2"
+  integrity sha1-nJww1OMlAqq7P94Q14cqF8hoAeI=
+  dependencies:
+    array-iterate "^1.0.0"
+
+unist-util-modify-children@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/unist-util-modify-children/download/unist-util-modify-children-3.0.0.tgz#fe2cc1b26f841100b79bf1a9a04bcae6c78c4c42"
+  integrity sha1-/izBsm+EEQC3m/GpoEvK5seMTEI=
+  dependencies:
+    "@types/unist" "^2.0.0"
+    array-iterate "^2.0.0"
+
+unist-util-stringify-position@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/unist-util-stringify-position/download/unist-util-stringify-position-3.0.0.tgz#d517d2883d74d0daa0b565adc3d10a02b4a8cde9"
+  integrity sha1-1RfSiD100NqgtWWtw9EKArSozek=
+  dependencies:
+    "@types/unist" "^2.0.0"
+
+unist-util-visit-children@^1.0.0:
+  version "1.1.4"
+  resolved "https://registry.nlark.com/unist-util-visit-children/download/unist-util-visit-children-1.1.4.tgz#e8a087e58a33a2815f76ea1901c15dec2cb4b432"
+  integrity sha1-6KCH5YozooFfduoZAcFd7Cy0tDI=
+
+unist-util-visit-parents@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.nlark.com/unist-util-visit-parents/download/unist-util-visit-parents-5.1.0.tgz?cache=0&sync_timestamp=1632208991791&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funist-util-visit-parents%2Fdownload%2Funist-util-visit-parents-5.1.0.tgz#44bbc5d25f2411e7dfc5cecff12de43296aa8521"
+  integrity sha1-RLvF0l8kEeffxc7P8S3kMpaqhSE=
+  dependencies:
+    "@types/unist" "^2.0.0"
+    unist-util-is "^5.0.0"
+
+unist-util-visit@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmmirror.com/unist-util-visit/download/unist-util-visit-4.1.0.tgz?cache=0&sync_timestamp=1632405298952&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Funist-util-visit%2Fdownload%2Funist-util-visit-4.1.0.tgz#f41e407a9e94da31594e6b1c9811c51ab0b3d8f5"
+  integrity sha1-9B5Aep6U2jFZTmscmBHFGrCz2PU=
+  dependencies:
+    "@types/unist" "^2.0.0"
+    unist-util-is "^5.0.0"
+    unist-util-visit-parents "^5.0.0"
 
 universalify@^2.0.0:
   version "2.0.0"
@@ -1977,6 +2244,24 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vfile-message@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.npmmirror.com/vfile-message/download/vfile-message-3.1.0.tgz#5437035aa43185ff4b9210d32fada6c640e59143"
+  integrity sha512-4QJbBk+DkPEhBXq3f260xSaWtjE4gPKOfulzfMFF8ZNwaPZieWsg3iVlcmF04+eebzpcpeXOOFMfrYzJHVYg+g==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    unist-util-stringify-position "^3.0.0"
+
+vfile@^5.0.0:
+  version "5.2.1"
+  resolved "https://registry.npmmirror.com/vfile/download/vfile-5.2.1.tgz#9278072d576e320917204a3291eec0b346c4ed5d"
+  integrity sha512-vXW5XKbELM6mLj88kmkJ+gjFGZ/2gTmpdqPDjs3y+qbvI5i7md7rba/+pbYEawa7t22W7ynywPV6lUUAS1WiYg==
+  dependencies:
+    "@types/unist" "^2.0.0"
+    is-buffer "^2.0.0"
+    unist-util-stringify-position "^3.0.0"
+    vfile-message "^3.0.0"
 
 vscode-uri@^3.0.3:
   version "3.0.3"

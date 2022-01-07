@@ -19,7 +19,9 @@
             "includeRegExpList": [],
             "ignoreRegExpList": [],
             "patterns": [],
-            "dictionaries": ["ug-khan"],
+            "dictionaries": [
+                "ug-khan"
+            ],
             "dictionaryDefinitions": []
         }
     ]
